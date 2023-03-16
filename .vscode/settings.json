@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "*.cu": "cuda-cpp",
+        "atomic": "cpp",
+        "cmath": "cpp",
+        "exception": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocnum": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
+    }
+}
