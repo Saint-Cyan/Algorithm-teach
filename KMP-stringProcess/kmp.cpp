@@ -8,7 +8,8 @@ using namespace std;
 
 void kmp_pre(char x[], int m, int kmpNext[])
 {
-    int i, j;
+    int i;
+    int j;
     j = kmpNext[0] = -1;
     i = 0;
 
@@ -33,7 +34,8 @@ int kmp(char x[], int m, char y[], int n)
     {
         while (-1 != j && y[i] != y[j])
             j = kmp_next[j]; // 返回存储在kmp_next中前一个
-        i++, j++;
+        i++;
+        j++;
         if (j > m)
         {
             ans++;
